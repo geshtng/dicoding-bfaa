@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Github User</string>
+
+    <!-- item_user -->
+    <string name="username">Username</string>
+    <string name="name">Name</string>
+
+    <string name="json_test">JSON</string>
+    <string name="company">Company</string>
+    <string name="location">Location</string>
+    <string name="repository">Repository</string>
+    <string name="follower">Follower</string>
+    <string name="following">Following</string>
+    <string name="avatar">avatar</string>
+    <string name="label_company">Company:</string>
+    <string name="label_location">Location:</string>
+    <string name="label_repository">Repository:</string>
+    <string name="label_follower">Follower:</string>
+    <string name="label_following">Following:</string>
+</resources>
