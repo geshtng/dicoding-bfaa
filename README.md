@@ -1,3 +1,3 @@
 # dicoding-bfaa
 
-Submissions for Dicoding's Course "Belajar Fundamental Aplikasi Android"
+Submissions for Dicoding's Course **"Belajar Fundamental Aplikasi Android"**
