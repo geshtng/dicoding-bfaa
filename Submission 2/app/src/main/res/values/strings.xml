@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Github User</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Enter username</string>
+    <string name="change_language">Change language</string>
+
+    <string name="username">Username</string>
+    <string name="html_url">html_url</string>
+    <string name="name">Name</string>
+    <string name="company">Company</string>
+    <string name="location">Location</string>
+    <string name="blog">Blog</string>
+
+    <string name="user_not_found">User Not Found</string>
+
+    <string name="tab_follower">Follower</string>
+    <string name="tab_following">Following</string>
+
+    <string name="background">Background</string>
+</resources>
