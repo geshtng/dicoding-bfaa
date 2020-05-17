@@ -27,7 +27,7 @@ public class DetailViewModel extends ViewModel {
 
         AsyncHttpClient client = new AsyncHttpClient();
         client.addHeader("User-Agent", "request");
-        client.addHeader("Authorization", "token 05309e0385db6965626ac51537151fda7a2fd138");
+        client.addHeader("Authorization", "DELETE TOKEN");
         client.get(url, new AsyncHttpResponseHandler() {
             @Override
             public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
