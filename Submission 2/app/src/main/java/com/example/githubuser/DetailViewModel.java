@@ -18,7 +18,7 @@ import java.util.Objects;
 import cz.msebera.android.httpclient.Header;
 
 public class DetailViewModel extends ViewModel {
-    private MutableLiveData<ArrayList<User>> listUser = new MutableLiveData<>();
+    private final MutableLiveData<ArrayList<User>> listUser = new MutableLiveData<>();
 
     void fetchFollow(final String username, String queryType) {
         final ArrayList<User> listItems = new ArrayList<>();
