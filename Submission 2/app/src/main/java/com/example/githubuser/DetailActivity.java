@@ -34,7 +34,7 @@ import cz.msebera.android.httpclient.Header;
 
 public class DetailActivity extends AppCompatActivity implements AppBarLayout.OnOffsetChangedListener {
     public static final String EXTRA_USER = "extra_user";
-    public String uName;
+    private String uName;
 
     private static final int PERCENTAGE_TO_ANIMATE_AVATAR = 20;
     private boolean isAvatarShown = true;
