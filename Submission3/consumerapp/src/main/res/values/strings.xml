@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ConsumerApp</string>
+    <string name="username">Username</string>
+    <string name="html_url">html_url</string>
+</resources>

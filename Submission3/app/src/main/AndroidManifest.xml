@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.githubuser">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+    <permission android:name="com.example.githubuser.provider.READ_DATABASE" android:protectionLevel="normal"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <provider
+            android:name=".provider.FavoriteUserProvider"
+            android:authorities="com.example.githubuser.provider"
+            android:enabled="true"
+            android:exported="true"
+            android:multiprocess="true"
+            android:readPermission="com.example.githubuser.provider.READ_DATABASE"/>
+
+        <activity android:name=".views.NotificationActivity" />
+        <activity android:name=".views.FavoriteActivity" />
+        <activity android:name=".views.DetailActivity" />
+        <activity android:name=".views.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".provider.NotificationBroadcast" />
+    </application>
+
+</manifest>
