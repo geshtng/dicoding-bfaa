@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Github User</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Enter username</string>
+    <string name="change_language">Change language</string>
+
+    <string name="username">Username</string>
+    <string name="html_url">html_url</string>
+    <string name="name">Name</string>
+    <string name="company">Company</string>
+    <string name="location">Location</string>
+    <string name="blog">Blog</string>
+
+    <string name="user_not_found">User Not Found</string>
+
+    <string name="tab_follower">Follower</string>
+    <string name="tab_following">Following</string>
+
+    <string name="background">Background</string>
+    <string name="favorite">Favorite</string>
+
+    <string name="fav_success_add">Successfully add to favorite!</string>
+    <string name="empty_favorite">There are no favorites added yet</string>
+    <string name="alert_delete">Delete</string>
+    <string name="confirm_delete">Delete from favorite?</string>
+    <string name="delete_success">Deleted from favorite</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="notification_settings">Notification Settings</string>
+    <string name="notification">Notification</string>
+    <string name="notification_application">Show application notification</string>
+    <string name="notification_text">Let\'s search some github users!</string>
+</resources>
