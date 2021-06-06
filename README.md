@@ -3,6 +3,7 @@
 Submissions for Dicoding's Course **"Belajar Fundamental Aplikasi Android"** ([Course Link])
 
 # Downloads APKs
+:warning: If these APKs are not work, you can manually build using the these project :satisfied:
 | Submissions | Review Rating | Link |
 | ------ | ------ | ------ |
 | Submission 1: Aplikasi Github User | :star: :star: :star: :star: | [download][APK 1] |
